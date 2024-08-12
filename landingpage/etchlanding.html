@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="etchlanding.js" defer></script>
+    <link rel="stylesheet" href="etchlanding.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Anonymous+Pro" />
+    <title>Etch A Sketch</title>
+</head>
+<body>
+    <div class="hero-block-content1">
+        <div class="content1-container">
+            <div class="main-title">
+                SKETCH PAD
+            </div>
+            <div class="button-container">
+                <button id="trigger-modal">Create</button>
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+
+        <div class="content2-container">
+            <div class="sketchpad">
+                <div class="backdrop"></div>
+                <div class="popup-modal">
+                    <h1>How many columns?</h1>
+                    <input type="number" id="numofsides1" name="numofsides1" min="1" max="100">
+                    <h1>How many rows?</h1>
+                    <input type="number" id="numofsides2" name="numofsides2" min="1" max="100">
+                    <button id="close-modal">Close Modal</button>
+                </div>
+    
+                <div id="container"></div>
+        </div>
+        </div>
+
+    </div>
+    <div class="hero-block-footer">© KertJustineMarquez</div>
+
+
+</body>
+</html>
